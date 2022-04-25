@@ -32,12 +32,15 @@ print(STUDENT)
 
 
 # Question 4
-marks=[]
-for i in range(5): #for loop to take input 5 times
-marks.append(input("Enter marks of students"))
-marks.sort()
-print(marks)  
 
+a=float(input('marks obtained by student 1:'))
+b=float(input('marks obtained by student 2:'))
+c=float(input('marks obtained by student 3:'))
+d=float(input('marks obtained by student 4:'))
+e=float(input('marks obtained by student 5:'))
+marks_list=[a,b,c,d,e]
+marks_list.sort()
+print(marks_list)
 
 
 # Question 5
