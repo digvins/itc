@@ -1,5 +1,6 @@
 #21102075
 #Q.1
+print("Question-1")
 m=int(input("Enter Marks :"))
 if(m<25):
     print(" Grade F ")
@@ -18,6 +19,7 @@ else:
 
 print()
 #Q.2
+print("Question-2")
 year = int(input("Enter a year: "))
 
 if year % 4 == 0 :
@@ -31,6 +33,7 @@ else :
 
 print()
 #Q.3
+print("Question-3")
 import random
 for i in range(10):
     num1 = random.randint(1,10)
@@ -44,6 +47,7 @@ for i in range(10):
     
 print()
 #Q.4
+print("Question-4")
 x=200
 
 for candies in range(x):
