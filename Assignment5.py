@@ -205,14 +205,16 @@ print(duplicate_li)           #to get occurence of each of the element.
 print("\n")
 print("QUESTION 9")
 print("\n")
-from collections import Counter
-# input of list
+n=int(input("Number of words: "))
 li=[]
-n=int(input("Enter size of list : "))
-for i in range(0,n):
-    e=int(input("Enter element of list : "))
-    li.append(e)
+for i in range(n):
+    word=input("Enter the word: ")
+    li.append(word)
+times={}
+for i in li :
+    if i not in times :
+        times[i]=1
+    else :
+        times[i]+=1
+print("Number of occurences: ",times)
 
-duplicate_dict = Counter(li)
-
-print(duplicate_dict)           #to get occurence of each of the element.
