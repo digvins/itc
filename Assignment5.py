@@ -1,3 +1,6 @@
+#21102075
+#DIGVIJAY SINGH RATHORE
+
 print("QUESTION 1")
 print("\n")
 
