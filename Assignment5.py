@@ -49,6 +49,9 @@ if side1+side2>side3 and side1+side3>side2 and side2+side3>side1 :
 else :
     print("Invalid Input")                                          # invalid input shown up if the triangle is not possible
 
+    
+    
+    
 print("\n")
 print("QUESTION 4")
 print("\n")
@@ -63,6 +66,10 @@ for i in range(rows, 0, -1):
         print("*", end=' ')
     print("\r")
 
+    
+    
+    
+    
 print("\n")
 print("QUESTION 5")
 print("\n")
@@ -82,6 +89,10 @@ for i in range(0,row+1):
       print("")
 
 
+    
+    
+    
+    
 print("\n")
 print("QUESTION 6")
 print("\n")
@@ -97,6 +108,9 @@ for number in range (lower_value, upper_value + 1):
         else:  
             print (number)                                    # if NO, the code prints the number
 
+            
+            
+            
 print("\n")
 print("QUESTION 7")
 print("\n")
@@ -106,6 +120,10 @@ for i in range (lower,upper+1):
     if(i%7==0 and i%5==0):
         print(i)
 
+        
+        
+        
+        
 print("\n")
 print("QUESTION 8")
 print("\n")
@@ -178,6 +196,11 @@ print("Answer of (e.) part")
 duplicate_li = Counter(li)
 
 print(duplicate_li)           #to get occurence of each of the element.
+
+
+
+
+
 
 print("\n")
 print("QUESTION 9")
